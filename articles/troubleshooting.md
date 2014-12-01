@@ -23,9 +23,9 @@ You can use [Cascading Traps](http://docs.cascading.org/cascading/2.0/userguide/
 Testing
 -------
 
-You may use the functions and macros from the [cascalog.testing](https://github.com/nathanmarz/cascalog/blob/develop/src/clj/cascalog/testing.clj) namespace together with clojure.test test your queries. See [Cascalog's own tests](https://github.com/nathanmarz/cascalog/tree/develop/test/cascalog) for examples.
+You may use the functions and macros from the [midje.cascalog](https://github.com/nathanmarz/cascalog/blob/develop/midje-cascalog/src/midje/cascalog.clj) namespace together with clojure.test test your queries. See [Cascalog's own tests](https://github.com/nathanmarz/cascalog/tree/develop/cascalog-core/test/cascalog) for examples.
 
- It uses for example `fact?-` to execute a query and compare its outputs with the expected ones or something like `(facts query => (produces [[3 10] [1 5] [5 11]])` where `(def query (<- ...))`. Read Sam Ritchie's blog post [Cascalog Testing 2.0 ](http://sritchie.github.com/2012/01/22/cascalog-testing-20.html) for more details and examples of midje-cascalog 0.4.0.
+It uses for example `fact?-` to execute a query and compare its outputs with the expected ones or something like `(facts query => (produces [[3 10] [1 5] [5 11]])` where `(def query (<- ...))`. Read Sam Ritchie's blog post [Cascalog Testing 2.0 ](http://sritchie.github.io/2012/01/22/cascalog-testing-20/) for more details and examples of midje-cascalog 0.4.0.
 
 Live coding
 -----------
