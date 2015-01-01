@@ -51,8 +51,8 @@ An overview of Cascalog with a quick tutorial that helps you to get started with
 
 ### Testing and Debugging
 
-- [Testing Cascalog with Midje, part 1](http://sritchie.github.com/2011/09/30/testing-cascalog-with-midje/)
-- [Testing Cascalog with Midje, part 2](http://sritchie.github.com/2012/01/22/cascalog-testing-20/)
+- [Testing Cascalog with Midje, part 1](http://www.samritchie.io/testing-cascalog-with-midje/)
+- [Testing Cascalog with Midje, part 2](http://www.samritchie.io/cascalog-testing-2-0/)
 - [Troubleshooting](/articles/troubleshooting.html)
 
 ### Upgrading from 1.x to 2.x
@@ -75,5 +75,7 @@ An overview of Cascalog with a quick tutorial that helps you to get started with
 - [Next-gen sequencing variation statistics with Hadoop using Cascalog](http://bcbio.wordpress.com/2011/07/04/summarizing-next-gen-sequencing-variation-statistics-with-hadoop-using-cascalog/)
 - [Cascalog made easier](http://jimdrannbauer.com/2011/02/04/cascalog-made-easier/)
 - [Using Cascalog for ETL](http://ianrumford.github.io/blog/2012/09/29/using-cascalog-for-extract-transform-and-load/)
+- [Hardcore Cascalog: Dynamic Queries](http://www.samritchie.io/dynamic-cascalog-queries/)
+
 
 ### [List of companies using Cascalog](/articles/users.html)
