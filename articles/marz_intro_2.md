@@ -129,9 +129,11 @@ user=> (?<- (stdout) [?person ?youngest] (follows ?person ?p2)
 
 To find the oldest person each person follows, we simply add a :reverse predicate:
 
+```clj
 user=> (?<- (stdout) [?person ?youngest] (follows ?person ?p2)
           (age ?p2 ?age) (:sort ?age) (:reverse true)
           (first-tuple ?p2 :> ?youngest))
+```          
 
 ## Duplicate elimination
 
