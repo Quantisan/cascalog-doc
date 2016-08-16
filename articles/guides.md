@@ -5,7 +5,7 @@ layout: article
 
 ## Guide list
 
-[Cascalog documentation](https://www.cascalog.org/) is organized as a number of guides, covering all kinds of topics.
+[Cascalog documentation](/index.html) is organized as a number of guides, covering all kinds of topics.
 
 We recommend that you read these guides, if possible, in this order:
 
