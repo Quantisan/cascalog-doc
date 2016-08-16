@@ -5,7 +5,7 @@ plugins_dir: ./_plugins
 exclude: [bin, CNAME, Gemfile, Gemfile.lock, README.md]
 permalink: /:title
 highlighter : pygments
-markdown: redcarpet
+#markdown: redcarpet
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 sitemap: false
