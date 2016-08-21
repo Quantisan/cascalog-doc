@@ -15,7 +15,7 @@ This guide is a quick tutorial to help you get started with using Cascalog. It s
 
 ## What version of Cascalog does this guide cover?
 
-This guide covers Cascalog 2.0.0.
+This guide covers Cascalog 3.0.0.
 
 ## Prerequisites
 
@@ -31,13 +31,13 @@ Clojure artifacts are released to [Clojars](https://clojars.org/cascalog) reposi
 Add dependency to Cascalog.
 
 ```clj
-[cascalog "2.0.0"]
+[cascalog/cascalog-core "3.0.0"]
 ```
 
 Add development dependency to Hadoop in your `project.clj`.
 
 ```clj
-:profiles { :dev {:dependencies [[org.apache.hadoop/hadoop-core "1.1.2"]]}}
+:profiles { :dev {:dependencies [[org.apache.hadoop/hadoop-core "1.2.1"]]}}
 ```
 
 Bump up heap size for running Hadoop in local mode, also in your `project.clj`. Make sure that your heap size is set to at least 768 MB.
@@ -62,8 +62,8 @@ Then add Cascalog dependency to your project.
 ```xml
 <dependency>
   <groupId>cascalog</groupId>
-  <artifactId>cascalog</artifactId>
-  <version>2.0.0</version>
+  <artifactId>cascalog-core</artifactId>
+  <version>3.0.0</version>
 </dependency>
 ```
 
